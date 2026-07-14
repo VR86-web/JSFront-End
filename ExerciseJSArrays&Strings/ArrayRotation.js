@@ -1,7 +1,7 @@
 function arrayRotation(arr, rotations) {
     for (let iteration = 0; iteration < rotations; iteration++) {
-        let poped_num = arr.shift()
-        arr.push(poped_num)
+        let first_num = arr.shift()
+        arr.push(first_num)
     }
     console.log(arr.join(' '));
     
